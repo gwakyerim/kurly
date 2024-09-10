@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Welcome to Market-Kurly</title>
+  <!--JQuery CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="../js/slick/slick.js"></script>
+  <link rel="stylesheet" href="../js/slick/slick-theme.css">
+  <link rel="stylesheet" href="../js/slick/slick.css">
+  <!--Custom CSS & JS-->
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/custom.js"></script>
+</head>
+<body>
+  <div class="container cart">
+    <div class="cart-inner">
+      <div class="sub-header">
+        <button class="btn-back" onclick="location.href='../html/04-main-01.html'"><i class="bi bi-x"></i></button>
+        <h2>장바구니</h2>
+      </div>
+      <div class="cart-content">
+        <div class="cart-header-inner">
+          <h3>장바구니</h3>
+          <button class="btn-all-close">전체삭제</button>
+        </div>
+        <div class="cart-items">
+          <div class="cart-item">
+            <div class="title">
+              <input type="checkbox" checked>
+              <span>[외할머니댁] 얼큰 소고기 버섯탕</span>
+              <button class="btn-clear"><i class="bi bi-x"></i></button>
+            </div>
+            <div class="desc">
+              <div class="thum"><img src="../images/06-product-detail-main.png"></div>
+              <div class="info">
+                <span>11,120원</span>
+                <s>13,900원</s>
+                <div class="product-order-count">
+                  <button class="btn-minus">-</button>
+                  <input type="text" class="result" value="1">
+                  <button class="btn-plus">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cart-item fail">
+            <div class="cart-header-inner fail">
+              <h3>구매불가 상품</h3>
+              <button class="btn-clear"><i class="bi bi-x"></i></button>
+            </div>
+            <div class="desc">
+              <div class="thum"><img src="../images/04-main-good-deal-now-02.jpg"></div>
+              <div class="info">
+                <span>(구매불가) [일상무소] 등심 스테이크/구이 2종</span>
+                <b>배송불가 또는 판매종료 상품</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-items-summary">
+          <div>
+            <span>상품금액</span><span>13,900원</span>
+          </div>
+          <div>
+            <span>상품 할인금액</span><span>-2,780원</span>
+          </div>
+          <div>
+            <span>배송비</span><span>0원</span>
+          </div>
+          <div>
+            <span>총 결제 예상 금액</span><span>11,120원</span>
+          </div>
+        </div>
+        <button class="btn-primary btn-order">11,120원 주문하기</button>
+      </div>
+      <!-- GNB Include -->
+      <div class="gnb-include"></div>
+      <!-- GNB Include -->
+    </div>
+  </div>
+</body>
+</html>

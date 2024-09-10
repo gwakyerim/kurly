@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Welcome to Market-Kurly</title>
+  <!--JQuery CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="../js/slick/slick.js"></script>
+  <link rel="stylesheet" href="../js/slick/slick-theme.css">
+  <link rel="stylesheet" href="../js/slick/slick.css">
+  <!--Custom CSS & JS-->
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/custom.js"></script>
+</head>
+<body>
+  <div class="container front">
+    <div class="front-inner">
+      <!-- Main Header -->
+      <div class="main-banner">
+        <h1 class="logo">Kurly</h1>
+        <div class="front-back">
+          <button class="btn-market active" onclick="location.href='../html/04-main-01.html'">마켓컬리</button>
+          <button class="btn-beauty" onclick="location.href='../html/05-main-02.html'">뷰티컬리</button>
+        </div>
+        <div class="front-alarm">
+          <a href="#none"><i class="bi bi-bell"></i></a>
+          <a href="#none"><i class="bi bi-cart"></i></a>
+        </div>
+      </div>
+      <div class="front-content">
+        <!-- Category Nav -->
+        <div class="category-nav">
+          <a class="active" href="#none">컬리추천</a>
+          <a href="#none">신상품</a>
+          <a href="#none">베스트</a>
+          <a href="#none">알뜰쇼핑</a>
+          <a href="#none">특가/혜택</a>
+        </div>
+        <!-- Front Slider -->
+        <div class="front-slider">
+          <a href="#none"><img src="../images/04-main-slider-01.png"></a>
+          <a href="#none"><img src="../images/04-main-slider-02.png"></a>
+          <a href="#none"><img src="../images/04-main-slider-03.png"></a>
+          <a href="#none"><img src="../images/04-main-slider-04.png"></a>
+        </div>
+        <div class="good-deal now">
+          <div class="good-deal-header">
+            <div>
+              <h3>지금 가장 많이 담는 특가템<img src="../images/04-main-food-title-img.png"></h3>
+              <span>컬리 추천 특가템 최대 30%</span>
+            </div>
+            <div>
+              <a href="#none">전체보기 →</a>
+            </div>
+          </div>
+          <div class="good-deal-items">
+            <div class="good-deal-item" onclick="location.href='../html/06-product-detail.html'">
+              <div class="thum">
+                <img src="../images/04-main-good-deal-now-01.jpg">
+                <span class="badge">증정이벤트</span>
+              </div>
+              <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+              <div class="desc">
+                <h4>[외할머니댁] 얼큰 소고기 버섯탕</h4>
+                <s>13,900원</s>
+                <span>20%</span>
+                <b>11,120원</b>
+              </div>
+            </div>
+            <div class="good-deal-item" onclick="location.href='../html/06-product-detail.html'">
+              <div class="thum">
+                <img src="../images/04-main-good-deal-now-02.jpg">
+              </div>
+              <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+              <div class="desc">
+                <h4>[일상무소] 등심 스테이크/구이 2종</h4>
+                <s>16,500원</s>
+                <span>20%</span>
+                <b>13,200원</b>
+              </div>
+            </div>
+            <div class="good-deal-item" onclick="location.href='../html/06-product-detail.html'">
+              <div class="thum">
+                <img src="../images/04-main-good-deal-now-03.jpg">
+              </div>
+              <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+              <div class="desc">
+                <h4>천명우 농부의 분향리 토마토 750g</h4>
+                <s>14,900원</s>
+                <span>13%</span>
+                <b>12,900원</b>
+              </div>
+            </div>
+            <div class="good-deal-item" onclick="location.href='../html/06-product-detail.html'">
+              <div class="thum">
+                <img src="../images/04-main-good-deal-now-04.jpg">
+              </div>
+              <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+              <div class="desc">
+                <h4>[Picard] 미니 오페라 케이크</h4>
+                <s>12,800원</s>
+                <span>20%</span>
+                <b>10,240원</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <a href="#none"><img src="../images/04-main-banner-01.PNG"></a>
+        </div>
+        <div class="good-deal fastfood">
+          <div class="good-deal-header">
+            <div>
+              <h3>푸짐하게 즐기는 간편식 뷔페<img src="../images/04-main-food-title-img.png"></h3>
+              <span>메인메뉴부터 휙까지 최대 30% 할인</span>
+            </div>
+            <div>
+              <a href="#none">전체보기 →</a>
+            </div>
+          </div>
+          <div class="good-deal-items">
+            <div class="good-deal-item" onclick="location.href='../html/06-product-detail.html'">
+              <div class="thum">
+                <img src="../images/04-main-fast-item-01.png">
+              </div>
+              <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+              <div class="desc">
+                <h4>[Kurly’s] 간편하게 바삭,유린기</h4>
+                <s>9,200원</s>
+                <span>20%</span>
+                <b>7,360원</b>
+              </div>
+            </div>
+            <div class="good-deal-item" onclick="location.href='../html/06-product-detail.html'">
+              <div class="thum">
+                <img src="../images/04-main-fast-item-02.png">
+              </div>
+              <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+              <div class="desc">
+                <h4>[홍익궁중전동] 육개장(2인분)</h4>
+                <s>9,000원</s>
+                <span>15%</span>
+                <b>8,330원</b>
+              </div>
+            </div>
+            <div class="good-deal-item" onclick="location.href='../html/06-product-detail.html'">
+              <div class="thum">
+                <img src="../images/04-main-fast-item-03.png">
+              </div>
+              <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+              <div class="desc">
+                <h4>[모노키친] 통통 치즈돈까스</h4>
+                <s>8,900원</s>
+                <span>13%</span>
+                <b>12,900원</b>
+              </div>
+            </div>
+            <div class="good-deal-item" onclick="location.href='../html/06-product-detail.html'">
+              <div class="thum">
+                <img src="../images/04-main-fast-item-04.png">
+              </div>
+              <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+              <div class="desc">
+                <h4>[서촌 영화루] 짜장면(2인분)</h4>
+                <s>9,900원</s>
+                <span>18%</span>
+                <b>8,110원</b>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <a href="#none"><img src="../images/04-main-banner-02.png"></a>
+        </div>
+        <div class="today-sale-item" onclick="location.href='../html/06-product-detail.html'">
+          <div class="header">
+            <h2>10 : 36 : 24</h2>
+            <h3>일일특가</h3>
+            <h4>24시간 한정 특가 찬스!</h4>
+          </div>
+          <div class="thum">
+            <img src="../images/04-main-onedaysale-item.png">
+          </div>
+          <button class="btn-cart"><i class="bi bi-cart"></i>담기</button>
+          <div class="desc">
+            <h4>KF365 에어프라이어용 미니돈까스,특등심 돈까스,떡갈비</h4>
+            <h3>KF365 인기 돈까스 & 떡갈비 2종</h3>
+            <div class="today-sale-price">
+              <div class="price-detail">
+                <span>36%</span>
+                <b>6,300원~</b>
+                <s>9,900원</s>
+              </div>
+              <div class="coments">
+                <i class="bi bi-chat-left-text"></i>
+                <span>9,999+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer  -->
+        <div class="front-footer">
+          <div class="company-link">
+            <a href="#none">컬리소개</a>
+            <a href="#none">이용약관</a>
+            <a href="#none">개인정보처리방침</a>
+          </div>
+          <div class="company-info">
+            <span>주식회사 컬리</span>
+            <span>대표자:김슬아</span>
+            <span>주소:서울특별시 강남구 테헤란로 133,18층 (역삼동)</span>
+            <p>
+              고객행복센터 : <a href="#none">1644-1107</a>
+              팩스 : <a href="#none">070-7500-6098</a>
+              <span>이메일 : <a href="#none">help@kurlycorp.com</a></span>
+            </p>
+          </div>
+          <div class="company-sns">
+            <a href="#none"><img src="../images/instagram(png파일).png"></a>
+            <a href="#none"><img src="../images/facebook(png파일).png"></a>
+            <a href="#none"><img src="../images/naver_blog(png파일).png"></a>
+            <a href="#none"><img src="../images/youtube(png파일).png"></a>
+          </div>
+        </div>
+      </div>
+      <!-- GNB Include -->
+      <div class="gnb-include"></div>
+      <!-- GNB Include -->
+    </div>
+  </div>
+</body>
+</html>

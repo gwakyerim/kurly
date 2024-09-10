@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Welcome to Market-Kurly</title>
+  <!--JQuery CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Slick Slider -->
+  <script src="../js/slick/slick.js"></script>
+  <link rel="stylesheet" href="../js/slick/slick-theme.css">
+  <link rel="stylesheet" href="../js/slick/slick.css">
+  <!--Custom CSS & JS-->
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/custom.js"></script>
+</head>
+<body>
+  <div class="container signup">
+    <div class="signup-inner">
+      <div class="sub-header signup">
+        <button class="btn-back" onclick="location.href='../html/02-login.html'"><i class="bi bi-x"></i></button>
+        <h2>회원가입</h2>
+      </div>
+      <div class="signup-content">
+        <div class="input-field">
+          <span>아이디<em>*</em></span>
+          <div>
+            <input type="text" placeholder="아이디를 입력해주세요">
+            <button class="btn-check">중복확인</button>
+          </div>
+        </div>
+        <div class="input-field">
+          <span>비밀번호<em>*</em></span>
+          <input type="password" placeholder="비밀번호를 입력해주세요">
+        </div>
+        <div class="input-field">
+          <span>비밀번호 확인<em>*</em></span>
+          <input type="password" placeholder="비밀번호를 한번 더 입력해주세요">
+        </div>
+        <div class="input-field">
+          <span>이름<em>*</em></span>
+          <input type="text" placeholder="이름을 입력해주세요">
+        </div>
+        <div class="input-field">
+          <span>이메일<em>*</em></span>
+          <div>
+            <input type="email" placeholder="예 : Kurly@kurly.com">
+            <button class="btn-check">중복확인</button>
+          </div>
+        </div>
+        <div class="input-field">
+          <span>휴대전화<em>*</em></span>
+          <div>
+            <input type="tel" placeholder="휴대전화번호 입력">
+            <button class="btn-check btn-getcode">인증번호 받기</button>
+          </div>
+        </div>
+        <div class="input-field address">
+          <span>주소<em>*</em></span>
+          <input type="search" placeholder="도로명, 지번, 건물명 검색">
+        </div>
+        <div class="agree-term">
+          <label><input type="checkbox"><em></em>전체 동의합니다.</label>
+          <label><input type="checkbox"><em></em>이용약관동의<b>(필수)</b></label>
+          <label><input type="checkbox"><em></em>개인정보 수집,이용 동의<b>(필수)</b></label>
+          <label><input type="checkbox"><em></em>무료배송,할인쿠폰 등 혜택/정보 수신 동의<b>(선택)</b></label>
+        </div>
+        <button class="btn-primary btn-signup">가입하기</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* Font Icon CDN */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* Font Family CDN */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@font-face {
+  font-family: 'NEXON Lv2 Gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* Font Faily */
+  --notosans: "Noto Sans KR", sans-serif;
+  --righteous: "Righteous", sans-serif;
+  --nexon: 'NEXON Lv2 Gothic';
+
+  /* Text color */
+  --dark-brown: #1B0D04;
+  --dark-black: #030303;
+  --light-gray: #989797;
+  --gloudy-gray:#eeeeee;
+  /* Object color */
+  --yellow: #F29F05;
+  --orange: #D96704;
+  --red: #FF1E00;
+  --blue: #0047FF;
+
+  /* Big Size Mobile & Tablet Device */
+  --slide-basis: 375px;
+}
